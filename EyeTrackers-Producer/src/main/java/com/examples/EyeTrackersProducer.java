@@ -51,7 +51,7 @@ public class EyeTrackersProducer {
 
                 // sleep for 8 ms
                 try {
-                    Thread.sleep(8);
+                    Thread.sleep(8000);
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
                 }
